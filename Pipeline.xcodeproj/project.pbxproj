@@ -11,6 +11,9 @@
 		8CA4A016216433AE00DD2DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4A015216433AE00DD2DFA /* ViewController.swift */; };
 		8CA4A018216433B000DD2DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4A017216433B000DD2DFA /* Assets.xcassets */; };
 		8CA4A01B216433B000DD2DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4A019216433B000DD2DFA /* Main.storyboard */; };
+		8CA4A0242164349A00DD2DFA /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4A0232164349A00DD2DFA /* Renderer.swift */; };
+		8CA4A026216437C100DD2DFA /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4A025216437C100DD2DFA /* Primitive.swift */; };
+		8CA4A02821643F1800DD2DFA /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4A02721643F1800DD2DFA /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		8CA4A01A216433B000DD2DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CA4A01C216433B000DD2DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CA4A01D216433B000DD2DFA /* Pipeline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pipeline.entitlements; sourceTree = "<group>"; };
+		8CA4A0232164349A00DD2DFA /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		8CA4A025216437C100DD2DFA /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		8CA4A02721643F1800DD2DFA /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			children = (
 				8CA4A013216433AE00DD2DFA /* AppDelegate.swift */,
 				8CA4A015216433AE00DD2DFA /* ViewController.swift */,
+				8CA4A0232164349A00DD2DFA /* Renderer.swift */,
+				8CA4A02721643F1800DD2DFA /* Shaders.metal */,
+				8CA4A025216437C100DD2DFA /* Primitive.swift */,
 				8CA4A017216433B000DD2DFA /* Assets.xcassets */,
 				8CA4A019216433B000DD2DFA /* Main.storyboard */,
 				8CA4A01C216433B000DD2DFA /* Info.plist */,
@@ -134,7 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA4A016216433AE00DD2DFA /* ViewController.swift in Sources */,
+				8CA4A0242164349A00DD2DFA /* Renderer.swift in Sources */,
 				8CA4A014216433AE00DD2DFA /* AppDelegate.swift in Sources */,
+				8CA4A026216437C100DD2DFA /* Primitive.swift in Sources */,
+				8CA4A02821643F1800DD2DFA /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
